@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRackV2.Android", "BikeRackV2\BikeRackV2.Android\BikeRackV2.Android.csproj", "{858DE945-02B5-41FD-A3F0-650623951D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRackV2", "BikeRackV2\BikeRackV2\BikeRackV2.csproj", "{F8E5F900-65C0-4542-8A1F-16157878EDD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858DE945-02B5-41FD-A3F0-650623951D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858DE945-02B5-41FD-A3F0-650623951D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858DE945-02B5-41FD-A3F0-650623951D5A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{858DE945-02B5-41FD-A3F0-650623951D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858DE945-02B5-41FD-A3F0-650623951D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858DE945-02B5-41FD-A3F0-650623951D5A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F8E5F900-65C0-4542-8A1F-16157878EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E5F900-65C0-4542-8A1F-16157878EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E5F900-65C0-4542-8A1F-16157878EDD4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F8E5F900-65C0-4542-8A1F-16157878EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E5F900-65C0-4542-8A1F-16157878EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E5F900-65C0-4542-8A1F-16157878EDD4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22037EDF-77C6-4B54-984E-54EE72E892F5}
+	EndGlobalSection
+EndGlobal

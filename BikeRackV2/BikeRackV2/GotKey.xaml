@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeRackV2.GotKey"
+             BackgroundColor="#e86a63"
+             Title="Got Key Page">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="CenterAndExpand">
+            <Image Source="bike.png" Aspect="AspectFit" Opacity="0.5"/>
+            <StackLayout VerticalOptions="Center" Padding="10" Spacing="10">
+                <Entry x:Name="entKey" Placeholder="Slot Key" HorizontalOptions="Fill" BackgroundColor="White" Opacity="0.75"/>
+                <Button x:Name="ConnectionKey" Text="Connect" Clicked="ConnectionKey_Clicked"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

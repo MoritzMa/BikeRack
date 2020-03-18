@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeRackV2.LoginPage"
+             BackgroundColor="#e86a63" 
+             Title="Login Page">
+    
+    <ContentPage.Content>
+        <Grid HorizontalOptions="CenterAndExpand" >
+            <Image Source="bike.png" Aspect="AspectFit" Opacity="0.5"/>
+            <StackLayout VerticalOptions="Center" Padding="10">
+                <Label Text="BikeRack" FontSize="35" HorizontalOptions="Center" TextColor="DarkRed" FontAttributes="Bold" Padding="20" />
+
+                <Entry Placeholder="UserName" x:Name="entUserName" HorizontalOptions="Fill" BackgroundColor="White" Opacity="0.75"></Entry>
+                <Entry Placeholder="Password" IsPassword="True" x:Name="entPassword" HorizontalOptions="Fill" BackgroundColor="White" Opacity="0.75"></Entry>
+
+                <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked"/>
+                <Label Text="or" HorizontalOptions="Center"/>
+                <Button x:Name="btnSignUp" Text="SignUp" Clicked="btnSignUp_Clicked"/>
+            </StackLayout>
+            <Label Text="Forgot Password?" VerticalOptions="End" HorizontalOptions="Center" Padding="20">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="lblForgotPassword" Tapped="lblForgotPassword_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid >
+    </ContentPage.Content>
+</ContentPage>

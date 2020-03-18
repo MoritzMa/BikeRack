@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeRackV2.MainPage"
+             BackgroundColor="#e86a63"
+             Title="MainPage">
+
+    <Grid HorizontalOptions="CenterAndExpand">
+        <Image Source="bike.png" Aspect="AspectFit" Opacity="0.5"/>
+        <StackLayout VerticalOptions="Center" Padding="10" Spacing="10">
+            <Label Text="Your Key: " x:Name="lblKey" FontSize="20"/>
+            <Image Source="map.jpg" VerticalOptions="Start" />
+            <Button x:Name="btnUnlock" Text="Unlock" Clicked="btnUnlock_Clicked"/>
+            <Button x:Name="btnLock" Text="Lock" Clicked="btnLock_Clicked" IsEnabled="False"/>
+            <Button x:Name="btnStop" Text="Stop Using Spot" Clicked="btnStop_Clicked"/>
+
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
